@@ -106,7 +106,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def refresh(self):
         ttext = self.plainTextSubs.toPlainText()
-        self.plainTextSubs.setPlainText(msgsub)
+        self.plainTextSubs.setPlainText(ttext)
             
     def subTopicChanged(self):
         tpcsub = self.lineSubsTopic.text()
